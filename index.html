@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Дипломный проект</title>
+	<link rel="stylesheet" href="fonts-awesome/css/all.min.css">
+	<link rel="stylesheet" href="libs/swiper.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="box">
+
+				<!-- burger -->
+				<div class="box__brg">
+					<span class="brg-span"></span>
+					<span class="brg-span"></span>
+					<span class="brg-span"></span>
+				</div>
+				<!-- burger end -->
+
+				<nav class="box-nav">
+					<ul class="list">
+						<li class="list__item">
+							<a href="#services" class="list__link">Услуги</a>
+						</li>
+						<li class="list__item">
+							<a href="#portfolio" class="list__link">Портфолио</a>
+						</li>
+						<li class="list__item">
+							<a href="#cost" class="list__link">Стоимость</a>
+						</li>
+					</ul>
+					<button class="box-nav__close">&times;</button>
+				</nav>
+
+				<div class="contacts">
+					<a href="tel:+74999955577" class="contacts__tel">+7(499) 995-55-77</a>
+					<button class="contacts__btn">Заказать звонок</button>
+					<!-- mobile phone -->
+					<a href="#" class="contacts__mobile">
+						<i class="fas fa-phone-alt contacts-phone"></i>
+					</a>
+					<!-- mobile phone end -->
+				</div>
+			</div>
+
+			<!-- box elements -->
+			<div class="box-elements">
+				<div class="box-elements__element-1 element anim">{ }</div>
+				<div class="box-elements__element-2 element anim">&lt;div&gt;</div>
+				<div class="box-elements__element-3 element anim">#</div>
+				<div class="box-elements__element-4 element anim">&lt;div&gt;</div>
+				<div class="box-elements__element-5 element anim">&lt;/&gt;</div>
+			</div>
+			<!--  box elements end -->
+		</div>
+	</header>
+
+	<main>
+		<section class="info">
+			<div class="container">
+				<div class="header-info">
+					<div class="header-info__title">
+						<h1 class="header-info__name">Дмитрий Алексеев</h1>
+						<p class="header-info__text">Frontend-разработчик и веб-верстальщик</p>
+						<button class="header-info__btn orange-button">Узнать больше</button>
+					</div>
+					<img src="img/man.png" alt="Фото" class="header-info__photo">
+				</div>
+			</div>
+		</section>
+
+		<section class="skills" id="services">
+			<div class="container">
+				<h2 class="skills-heading">Что я делаю</h2>
+
+				<ul class="row">
+					<li class="row__item">
+						<img src="img/tools-and-utensils.png" class="row__img" alt="Сайт">
+						<p class="row__text">Вёрстка лендинг-страниц и&nbsp;сайтов любой сложности</p>
+					</li>
+					<li class="row__item">
+						<img src="img/responsive.png" class="row__img" alt="Устройства">
+						<p class="row__text">Адаптивная вёрстка под все браузеры и&nbsp;устройства</p>
+					</li>
+					<li class="row__item">
+						<img src="img/programming.png" class="row__img" alt="Программирование">
+						<p class="row__text">Frontend-разработка и&nbsp;программирование</p>
+					</li>
+					<li class="row__item">
+						<img src="img/coding.png" class="row__img" alt="Настройки сайта">
+						<p class="row__text">Исправление и&nbsp;доработка существующей вёрстки</p>
+					</li>
+				</ul>
+
+				<button class="cost-btn orange-button">Узнать стоимость</button>
+			</div>
+		</section>
+
+		<section class="work" id="portfolio">
+			<div class="container">
+				<h2 class="skills-heading">Примеры моих работ</h2>
+
+				<div class="container-slider">
+					<button class="swiper-button-prev" aria-label="left-btn"></button>
+					<button class="swiper-button-next" aria-label="right-btn"></button>
+
+					<div class="swiper-container">
+
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<div class="portfolio__list">
+									<figure class="portfolio__picture">
+										<img class="portfolio__img" src="img/Layer_2.png" alt="Сайт психолога">
+										<figcaption class="portfolio__text">
+											Сайт психолога Веры Антоновой
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="portfolio__list">
+									<figure class="portfolio__picture">
+										<img class="portfolio__img" src="img/Layer_1.png"
+											alt="Сайт магазина детской одежды">
+										<figcaption class="portfolio__text">
+											Сайт магазина детской одежды
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="portfolio__list">
+									<figure class="portfolio__picture">
+										<img class="portfolio__img" src="img/Layer_3.png" alt="Сайт магазина Рыболов">
+										<figcaption class="portfolio__text">
+											Сайт магазина &laquo;Рыболов&raquo;
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+
+				<button class="project-btn orange-button">Заказать проект</button>
+			</div>
+		</section>
+
+		<aside class="aside" id="cost">
+			<div class="container">
+				<div class="adaptation">
+					<h2 class="adaptation__heading">Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000
+						рублей всего за&nbsp;4&nbsp;часа.*</h2>
+					<p class="adaptation__text">* Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных
+						и&nbsp;рассчитываются индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.</p>
+				</div>
+			</div>
+
+			<!-- aside elements -->
+			<div class="aside-elements">
+				<div class="aside-elements__element-1 element-left anim">{ }</div>
+				<div class="aside-elements__element-2 element-left anim">#</div>
+				<div class="aside-elements__element-3 element-right anim">&lt;/&gt;</div>
+				<div class="aside-elements__element-4 element-right anim">{ }</div>
+				<div class="aside-elements__element-5 element-right anim">&lt;div&gt;</div>
+			</div>
+			<!-- aside elements end -->
+		</aside>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<nav class="footer-nav">
+					<ul class="list">
+						<li class="list__item list__item_footer">
+							<a href="#services" class="list__link">Услуги</a>
+						</li>
+						<li class="list__item list__item_footer">
+							<a href="#portfolio" class="list__link">Портфолио</a>
+						</li>
+						<li class="list__item list__item_footer">
+							<a href="#cost" class="list__link">Стоимость</a>
+						</li>
+					</ul>
+				</nav>
+
+				<ul class="footer-contacts">
+					<li class="footer-contacts__list">
+						<a href="tel:+74999955577" class="footer-contacts__link">
+							<i class="fas fa-phone-alt"></i>+7(499) 995-55-77</a>
+					</li>
+					<li class="footer-contacts__list">
+						<a href="mailto:dmitry@alekseev.com" class="footer-contacts__link">
+							<i class="fas fa-envelope"></i>dmitry@alekseev.com</a>
+					</li>
+				</ul>
+
+				<div class="footer-social">
+					<button class="footer-social__btn">Заказать звонок</button>
+					<ul class="footer-social__list">
+						<li class="footer-social__item">
+							<a href="#" class="vk footer-social__link"></a>
+						</li>
+						<li class="footer-social__item">
+							<a href="#" class="fb footer-social__link"></a>
+						</li>
+						<li class="footer-social__item">
+							<a href="#" class="twitter footer-social__link"></a>
+						</li>
+						<li class="footer-social__item">
+							<a href="#" class="instagram footer-social__link"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="copy">&copy; Дмитрий Алексеев, 2016 - 2020</div>
+	</footer>
+
+	<div class="popup">
+		<div class="popup-dialog">
+			<div class="popup-header">
+				<h3 class="popup-header__title">Заказ звонка</h3>
+				<button class="popup-header__close">&times;</button>
+			</div>
+			<p class="popup-subtitle">Укажите имя, номер телефона и мы перезвоним Вам в течении 1 часа</p>
+			<form class="popup-form">
+				<label for="name" class="popup-form__label">* Ваше имя:</label>
+				<input type="text" id="name" class="popup-form__input" placeholder="   Имя">
+				<label for="tel" class="popup-form__label">* Номер телефона:</label>
+				<input type="tel" id="tel" class="popup-form__input" placeholder="   Телефон">
+				<button class="popup-btn">Заказать звонок</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="libs/jquery-3.4.1.min.js"></script>
+	<script src="libs/swiper.min.js"></script>
+	<script src="libs/slider.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
